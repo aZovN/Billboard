@@ -1,0 +1,319 @@
+l<style>
+	/*вот так ставятся комментарии внутри style*/
+
+	.header{
+		background-color: gray;
+		width: 1500px;
+		height: 50px;
+		margin-right: auto;
+		margin-left: auto;
+		border: 2px solid black;
+	}
+
+	.header-links{
+		color: white; 
+		margin-left: 25px; 
+		margin-top: 13px;
+	}
+
+	.charts-conatiner{
+		width: 800px;
+		height: 813px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+</style>
+
+<style>	
+	/*классы второго уровня */
+
+	.header-center{
+		width: 800px;
+		height: 47px;
+		margin-right: auto;
+		margin-left: auto;
+		display: flex;
+	}
+
+	.charts-sort{
+		width: 800px;
+		height: 55px;
+		margin-left: auto;
+		margin-right: auto;	 
+		display: flex;
+	}
+
+	.charts-up{
+		background-color: 6EE0AF;
+		width: 800px;
+		height: 100px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 8px;
+		border-radius: 10px; 
+		display: flex;
+	}
+
+	.charts-new{
+		background-color: CFD57C;
+		width: 800px;
+		height: 100px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 8px;
+		border-radius: 10px;
+		display: flex;
+	}
+
+	.charts-down{
+		background-color: 6EE0AF;
+		width: 800px;
+		height: 100px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 8px;
+		border-radius: 10px;
+		display: flex;
+	}
+
+</style>
+
+<style>
+
+/*классы наполнения(3 уровень)*/
+
+	.box-logo{
+		width: 200px;
+		height: 44px;
+	}
+
+	.box-links{
+		width: 400px;
+		height: 44px;;
+		display: flex;
+	}
+
+	.box-buttons{
+		width: 200px;
+		height: 44px;
+	}
+
+	.charts-rank{
+		width: 130px;
+		height: 100px;
+	}
+
+	.charts-info{
+		width: 400px;
+		height: 100px;
+	}
+
+	.charts-button{
+		width: 170px;
+		height: 100px;
+	}
+
+	.charts-img{
+		width: 100px;
+		height: 100px;
+	}
+
+</style>
+
+<!-- 1 уровень. шапка -->
+<div class="header">
+	<!-- 2 уровень. выравнивание шапки -->
+	<div class="header-center">
+		<!-- 3 уровень -->
+		<!-- лого -->
+		<div class="box-logo">
+			<img src="https://www.billboard.com/assets/1603122088/images/Billboard-white.svg?c077436e0bcf830db17c" style="width: 200px;">
+		</div>
+		<!-- ссылки -->
+		<div class="box-links">
+			<a href="rt.pornhub.com" style="color: white; margin-left: 25px; margin-top: 13px;">CHARTS</a>
+			<a href="" style="color: white; margin-left: 25px; margin-top: 13px;">NEWS</a>
+			<a href="" style="color: red; margin-left: 25px; margin-top: 13px;">VIDEO</a>
+			<a href="" style="color: yellow; margin-left: 25px; margin-top: 13px;">PHOTOS</a>
+		</div>
+		<!-- кнопка подписаться -->
+		<div class="box-buttons">
+			<button style="background-color: purple; width: 100px; height: 30px; margin-top: 5px; border-radius: 10px;">subscribe</button>
+		</div>
+	</div>
+</div>
+
+<!-- 1 уровень. чат-контейнер -->
+<div class="charts-conatiner">
+	<!-- 2 уровень -->
+	<!-- для кнопок сортировки -->
+	<div class="charts-sort">
+		<button style="width: 100px; height: 30px; background-color: orange; border-radius: 5px; margin-top: 10px;">THIS WEEK</button>
+		<button style="width: 100px; height: 30px; background-color: red; border-radius: 5px; margin-top: 10px; margin-left: 5px;">LAST WEEK</button>
+		<button style="width: 100px; height: 30px; background-color: green; border-radius: 5px; margin-top: 10px; margin-left: 5px;">PEAK</button>
+		<button style="width: 100px; height: 30px; background-color: purple; border-radius: 5px; margin-top: 10px; margin-left: 5px;">DURATION</button>
+	</div>
+	<!--все треки в чарте -->
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 style="margin-top: -1px; margin-left: 20px;">1</h1>
+			<h3 style="margin-top: -1px; margin-left: 20px; color: green;">Up</h3> 
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h2 style="color: 1A3780">Dancin (Krono Remix)</h2>
+			<h3 style="color: gray;">Aaron Smith</h3>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button style="background-color: blue; color: white; width: 120px; height: 30px; margin-top: 30px;">Воспроизвести</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="dancin.jfif" style="width: 100px; height: 100px;">
+		</div>
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 style="margin-top: -1px; margin-left: 20px;"> 2 </h1>
+			<h3 style="margin-top: -1px; margin-left: 20px; color: green;">New</h3>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h2 style="color: 1A3780">In My Mind</h2>
+			<h3 style="color: gray;">Dynord</h3>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button style="background-color: green; color: white; width: 100px; height: 30px; margin-top: 30px;">Купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="In My Mind.jfif" style="width: 100px; height: 100px;">
+		</div>		
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 style="margin-top: -1px; margin-left: 20px;">3</h1>
+			<h3 style="margin-top: -1px; margin-left: 20px; color: green;">New</h3>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h2 style="color: 1A3780">Lordly - Feder feat. Alex Aiono</h2>
+			<h3 style="color: gray;">Feder feat. Alix Aiono</h3>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div  class="charts-button">
+			<button style="background-color: green; color: white; width: 100px; height: 30px; margin-top: 30px;">Купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="Lordly.jfif" style="width: 100px; height: 100px;">
+		</div>		
+	</div>
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 style="margin-top: -1px; margin-left: 20px;">4</h1>
+			<h3 style="margin-top: -1px; margin-left: 20px; color: green;">Up</h3>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h2 style="color: 1A3780">Lovely (Feyesal Remix)</h2>
+			<h3 style="color: gray;">Billie Eilish & Khalid flip</h3>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button style="background-color: green; color: white; width: 100px; height: 30px; margin-top: 30px;">Купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="Lovely.jfif" style="width: 100px; height: 100px;">
+		</div>		
+	</div>
+
+	<!-- трек down -->
+	<div class="charts-down">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 style="margin-top: -1px; margin-left: 20px;">5</h1>
+			<h3 style="margin-top: -1px; margin-left: 20px; color: green;">Down</h3>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h2 style="color: 1A3780">Wrong Direction</h2>
+			<h3 style="color: gray;">Hailee Steinfeld</h3>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button style="background-color: green; color: white; width: 100px; height: 30px; margin-top: 30px;">Купить</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="Wrong.jfif" style="width: 100px; height: 100px;">
+		</div>		
+	</div>
+
+	<!-- трек new -->
+	<div class="charts-new">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 style="margin-top: -1px; margin-left: 20px;">6</h1>
+			<h3 style="margin-top: -1px; margin-left: 20px; color: green;">New</h3>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h2 style="color: 1A3780">SAD!</h2>
+			<h3 style="color: gray;">XXXTentacion</h3>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button style="background-color: blue; color: white; width: 120px; height: 30px; margin-top: 30px;">Воспроизвести</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="xxtentacion.jfif" style="width: 100px; height: 100px;">
+		</div>		
+	</div>
+
+	<!-- трек up -->
+	<div class="charts-up">
+		<!-- 3 уровень -->
+		<!-- Место в чате -->
+		<div class="charts-rank">
+			<h1 style="margin-top: -1px; margin-left: 20px;">7</h1>
+			<h3 style="margin-top: -1px; margin-left: 20px; color: green;">Up</h3>
+		</div>
+		<!-- информация о треке -->
+		<div class="charts-info">
+			<h2 style="color: 1A3780">Thunder</h2>
+			<h3 style="color: gray;">Imagine Dragons</h3>
+		</div>
+		<!-- купить или воспроизвести -->
+		<div class="charts-button">
+			<button style="background-color: blue; color: white; width: 120px; height: 30px; margin-top: 30px;">Воспроизвести</button>
+		</div>
+		<!-- картинка -->
+		<div class="charts-img">
+			<img src="thunder.jfif" style="width: 100px; height: 100px;">
+		</div>		
+	</div>
+</div>
+<!--  -->
